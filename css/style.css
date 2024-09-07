@@ -1,0 +1,34 @@
+.login{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 60%;
+    color: aliceblue;
+}
+
+.btn:hover{
+    font-weight: bold;
+}
+
+.drop-item-hover:hover{
+    color: black;
+}
+
+.no-shadow:focus {
+    box-shadow: none !important;
+}
+
+.shadow:focus{
+    border-color: rgba(52, 58, 64, 0.25) !important;
+    /* box-shadow: 0 0 0 .2rem rgba(0, 123, 255, .25); */
+    box-shadow: 0 0 0 .2rem rgba(52, 58, 64, 0.25) !important;
+}
+
+input[type="radio"]:checked+.clabel {
+    font-weight: bold !important;
+}
+
+input{
+    color: black !important;
+}
